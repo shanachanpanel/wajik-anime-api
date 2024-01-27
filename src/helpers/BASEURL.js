@@ -1,1 +1,1 @@
-export default "https://zoronime.com";
+export default "https://kusonime.com";
