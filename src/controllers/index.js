@@ -4,8 +4,8 @@ import { BASEURL, errorHandler } from "../helpers/index.js";
 export const wajikAnimeApi = (req, res) => {
    return res.json({
       source: BASEURL,
-      author: "wajik45",
-      message: "Ngopiiii.. ☕",
+      author: "Riza",
+      message: "donasi dong anj",
       alert: "kemungkinan masih ada bug",
       routes: {
          home: "/home",
@@ -13,13 +13,15 @@ export const wajikAnimeApi = (req, res) => {
          movie: "/movie",
          ongoing: "/ongoing",
          completed: "/completed",
+         recommended: "/recommended",
          genreList: "/genre",
+         recent: "/recent",
          genre: "/genre/:slug",
          search: "/search?query",
          animeDetails: "/anime/:slug",
          streamingAnime: "/anime/:slug/:episode",
          streamingMovie: "/movie/:slug",
-         more: "https://github.com/wajik45/wajik-anime-api",
+         more: "https://myranime.my.id",
       },
    });
 };
